@@ -1,0 +1,21 @@
+.post__block {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.block__textarea {
+    margin-bottom: 10px;
+}
+
+.post__textarea {
+    display: block;
+    width: 100%;
+    min-height: 90px;
+    resize: vertical;
+}
+
+.post__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}

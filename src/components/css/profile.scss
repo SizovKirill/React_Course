@@ -1,0 +1,25 @@
+.profile__block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profile__container {
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.profile__ava {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.profile__ava {
+    background: url('https://avatars.mds.yandex.net/get-pdb/1925624/d3774494-0972-406c-9e4a-d641ed2d7e43/s1200') center center / cover no-repeat;
+}
+
+.profile__title {
+    font-weight: bold;
+}

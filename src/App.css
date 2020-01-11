@@ -1,3 +1,146 @@
-ul li {
+ul,
+li {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app__wrapper {
+    width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "header header" "nav main";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+}
+
+
+/* _____ Header _____ */
+
+
+/* .header {
+    grid-area: header;
+    background-color: #5CCDC9;
+    padding: 10px;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+}
+
+.img__logo {
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* _____ NavSidebar _____ */
+
+
+/* _____ MainContent _____ */
+
+
+/* _____ Profile _____ */
+
+
+/* _____ Post _____ */
+
+
+/* .post__block {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.block__textarea {
+    margin-bottom: 10px;
+}
+
+.post__textarea {
+    display: block;
+    width: 100%;
+    min-height: 90px;
+    resize: vertical;
+}
+
+.post__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+} */
+
+
+/* _____ Button _____ */
+
+
+/* :hover,
+ :active,
+ :focus {
+    outline: none;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post__button {
+    color: white;
+    background-color: #A66B00;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    transition: .7s;
+}
+
+.post__button:hover {
+    background-color: #BF8C30;
+} */
+
+
+/* _____ Post__list _____ */
+
+.post__img {
+    margin-right: 20px;
+}
+
+.post__item-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.post__pic {
+    width: 120%;
+    background-size: cover;
+}
+
+.post__icon-desc {
+    font-size: 12px;
+}
+
+.icon__status {}
+
+.icon__name {
+    padding: 0 0 5px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #BF3730;
+    margin-bottom: 5px;
+}
+
+.post__item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.post__item-desc {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: White;
 }

@@ -1,0 +1,41 @@
+.post__img {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.post__item-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.post__pic {
+    width: 120%;
+    background-size: cover;
+}
+
+.post__icon-desc {
+    font-size: 12px;
+}
+
+.icon__name {
+    padding: 0 0 5px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #1F7386;
+    margin-bottom: 5px;
+}
+
+.post__item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.post__item-desc {
+    width: 80%;
+    padding: 10px 20px;
+    background-color: White;
+}

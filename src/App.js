@@ -1,20 +1,24 @@
 import React from 'react';
 import './App.css';
-import Header from './header';
-import Technologies from'./technologies';
-import Footer from './footer';
-import Menu_sidebar from './menu_sudebar';
-import Contacts from './contacts';
+import './components/css/header.scss';
+import './components/css/sidebar.scss';
+import './components/css/maincontent.scss';
+import './components/css/profile.scss';
+import './components/css/post.scss';
+import './components/css/button.scss';
+import './components/css/post__list.scss';
+
+import Header from './components/header';
+import Sidebar from './components/sidebar';
+import Profile from './components/profile';
 
 
 const App = () => {
     return ( 
-    <div>
-      <Header />
-      <Menu_sidebar/>     
-      <Contacts/>
-      <Technologies/>
-      <Footer/>
+    <div className="app__wrapper">
+      <Header/>
+      <Sidebar/>
+      <Profile/>
     </div>
     );
 } 
